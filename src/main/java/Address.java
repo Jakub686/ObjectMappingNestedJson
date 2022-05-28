@@ -1,6 +1,7 @@
 public class Address {
     String city;
     Street street;
+    Rocket rocket;
 
     public String getCity() {
         return city;
@@ -16,5 +17,13 @@ public class Address {
 
     public void setStreet(Street street) {
         this.street = street;
+    }
+
+    public Rocket getRocket() {
+        return rocket;
+    }
+
+    public void setRocket(Rocket rocket) {
+        this.rocket = rocket;
     }
 }
