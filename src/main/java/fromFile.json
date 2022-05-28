@@ -1,11 +1,11 @@
 {
-  "name": "jack",
-  "surname": "black",
-  "address": {
-    "city": "rzzow",
-    "street": {
-      "block": "2",
-      "apartment": "95"
+  "type":"set",
+  "key":"person",
+  "value":{
+    "name":"Elon Musk",
+    "car":{
+      "model":"Tesla Roadster",
+      "year":"2018"
     },
     "rocket":{
       "name":"Falcon 9",
@@ -13,5 +13,3 @@
     }
   }
 }
-
-
